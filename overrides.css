@@ -1,1 +1,12 @@
 .contact-form .contact-button{background:#f8f7f2;color:var(--ink)}.contact-form .contact-button:hover{background:#fff;transform:translateY(-1px)}
+:root{--ink:#2b2b2b;--paper:#fff;--lime:#cfcfcf;--line:rgba(0,0,0,.18)}
+.brand img{display:block;height:54px;width:auto}.footer .brand img{height:44px}
+h1{font-size:clamp(3rem,5.6vw,5.4rem);line-height:.98;letter-spacing:-.04em}h1 i{color:#b5b5b5}
+.monogram{color:rgba(255,255,255,.05)}
+.intro-copy p:last-child,.area p{color:#555}.areas{background:#ececec}.area>span:first-child,.area-arrow{color:#777}.areas h2 i{color:#8a8a8a}
+.contact{background:#d6d6d6}.contact h2 i{color:#6e6e6e}.contact-form{background:#2b2b2b}
+.footer{color:#666}
+
+.hero{background:linear-gradient(#fff 0 103px,#2b2b2b 103px)}
+.nav{color:var(--ink);border-bottom-color:#e2e2e2}.nav-cta{border-color:rgba(0,0,0,.35)}.nav-cta span{color:#777}
+@media(max-width:700px){.hero{background:linear-gradient(#fff 0 83px,#2b2b2b 83px)}}
